@@ -2,77 +2,24 @@
 
 ![a minimalist logo of a bird sitting on a box, a play on modularity and tools coming home to roost](https://roost.tools/images/logos/roost.svg "ROOST.tools")
 
-ROOST is a new non-profit organization that brings together the expertise, resources, and investments of major technology companies and philanthropies to build scalable, interoperable safety infrastructure suited for the AI era. 
+[ROOST](https://roost.tools) is a new non-profit organization that brings together the expertise, resources, and investments of major technology companies and philanthropies to build scalable, interoperable safety infrastructure suited for the AI era. 
 
 
-### Contribution Guidelines
-Thank you for sharing your time in contributing to our project! Below are some technical best practices for adding to the ROOST.
+## Our Team
+We are a small but mighty team dispersed and remote-first. Our founding partners include Eric Schmidt, Discord, OpenAI, Google, Roblox, John S. and James L. Knight Foundation, AI Collaborative, Patrick J. McGovern Foundation and Project Liberty Institute. ROOST also benefits from the support and expertise of a wide set of partners from the fields of AI, philanthropy, academia, open source, child safety, and countering violent extremism.
 
-#### Setting up Git
+## Why ROOST?
+Many organizations – big and small – still lack access to basic safety resources, hindering innovation and putting users at risk.
 
-The first step to contributing is to install Git. GitHub has thorough documentation for setting up [Git](https://docs.github.com/en/get-started/quickstart/set-up-git) and [Git LFS](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage). On macOS, we recommend using [Homebrew](https://brew.sh/).
+ROOST develops, maintains, and distributes open source building blocks to safeguard global users and communities. Backed by dedicated technical teams and leading experts, ROOST meets organizations where they are and provides hands-on support at every stage of their safety journey.
 
-If you are new to Git, see [Git Guides](https://github.com/git-guides/) for explanations and tutorials. For a quick refresher on Git commands, see the [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf).
+## Initial Product Roadmap
 
-If you want to avoid the command line, a Git client like [GitHub Desktop](https://desktop.github.com) can perform all the operations on this page---cloning, branching, displaying diffs, and committing---but use whichever tool you prefer.
+### Child Safety
+Many companies struggle to meet basic child safety needs because existing tools are either expensive, gate-kept, challenging to implement, and/or only partial solutions. ROOST works to close that digital safety gap.
 
-#### Forking and Cloning
+### Foundation model-powered content safeguards
+ROOST partners with leading developers to build a community of practice for foundation model-powered content safeguards. We identify and fill critical gaps in this space, for instance around specific training and evaluation datasets for content safety.
 
-Instead of just cloning this repository, [fork it](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) on GitHub. Then [clone your fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository):
-
-```shell
-git clone https://github.com/your-username/your-fork.git
-```
-For instructions on keeping your fork in sync with the main project over time, see [Syncing a fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork).
-
-#### Creating a New Branch
-
-After you clone your fork, create a new branch with a unique name. Creating branches keeps your work organized and discrete and helps avoid merge conflicts when you sync your fork with the main ROOST project.
-
-Because you eventually want to merge into the `main` branch, use it as the basis for your new branch.
-
-1. First, navigate to the repository root:
-
-   ```shell
-   cd creator-docs
-   ```
-
-1. Then switch to the `main` branch (if you're not already on it):
-
-   ```shell
-   git checkout main
-   ```
-
-1. Finally, create your new branch:
-
-   ```shell
-   git checkout -b your-new-branch
-   ```
-
-#### Opening Pull Requests
-
-When you're happy with your changes, commit them to your branch. Include a short summary and longer description:
-
-```shell
-git commit -m "summary" -m "description"
-```
-
-```shell
-git push origin your-branch
-```
-
-Then open ROOST's main repo on GitHub and click **New Pull Request**. Choose **main** as the _base_ branch and your branch as the _compare_ branch.
-
-Add a title and description of your changes, confirm that the contribution is your own, original work that you have the right to submit, and create the pull request.
-
-
-<!--
-
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+### Core Safety Infrastructure
+ROOST focuses on high quality, open versions of core tools that immediately add value and avoid unnecessary duplication, such as rules engines, case management systems, review consoles, wrappers that provide standardized data formats and a unified interface to different APIs, etc
