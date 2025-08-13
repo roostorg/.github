@@ -1,59 +1,29 @@
-### Contribution Guidelines
-Thank you for sharing your time in contributing to our project! Below are some technical best practices for adding to the ROOST.
+# Contributing to ROOST
+Thank you for being interested in contributing to ROOST! Together we’re making Trust & Safety tools available to all. Please take a moment to review our Contributing guidelines. 
 
-#### Setting up Git
+## Ways to Contribute
+### Bugs and docs fixes
+For small, easily reproducible bugs or small documentation changes, you can directly open a PR. Please identify it as a bug or fix in the subject line, and write a succinct commit message.
 
-The first step to contributing is to install Git. GitHub has thorough documentation for setting up [Git](https://docs.github.com/en/get-started/quickstart/set-up-git) and [Git LFS](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage). On macOS, we recommend using [Homebrew](https://brew.sh/).
+For medium-sized to big bugs or for feature enhancements, please start with an Issue. _(We don’t yet have an issue template; perhaps you could contribute one?!)_
 
-If you are new to Git, see [Git Guides](https://github.com/git-guides/) for explanations and tutorials. For a quick refresher on Git commands, see the [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf).
+If auto-generated Issues don’t provide meaningful suggestions and a way of following up with a human author, we will consider these spam and close them. 
 
-If you want to avoid the command line, a Git client like [GitHub Desktop](https://desktop.github.com) can perform all the operations on this page---cloning, branching, displaying diffs, and committing---but use whichever tool you prefer.
+### Code contributions
+Code contributions and significant pieces of documentation (aka Pull Requests) should have a corresponding Issue. We do this to make sure there’s lazy consensus on an idea before someone puts effort behind it, and let the community give feedback on the design.
+If you’re eager to start contributing code to ROOST, start with an open Issue!
 
-#### Forking and Cloning
+### Tutorials and demos
+We’re excited to see you try ROOST tools! For now, please start Tutorial or Demo contributions as Issues. This bird is young and we’re still building our nest. We’ll help find a good place for these on a case-by-case basis.
 
-Instead of just cloning this repository, [fork it](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) on GitHub. Then [clone your fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository):
+### Testing and code review
+Even if you don’t have merge permissions on ROOST repos, you can still help by reviewing code. This means reviewing PRs, their corresponding Issues, and validating solutions, and providing feedback and suggestions to the author.
+General ideas
+Have a thought but not sure it’s “Issue ready”? Throw it in a GitHub Discussion or our Discord channel! 
 
-```shell
-git clone https://github.com/your-username/your-fork.git
-```
-For instructions on keeping your fork in sync with the main project over time, see [Syncing a fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork).
+## Code Review Process
+We follow the principle of two party review, which means that an author cannot “self approve” their submission. While we’re defining our maintainership ladder, a ROOST staff member must merge code in. You can help by “+” or “thumbs up” other PRs that you’d like to see merged.  
 
-#### Creating a New Branch
+ROOST is focused on building high-quality, functional infrastructure tooling. That means that not every feature or refactor is going to be accepted right now (even if it’s a good idea long term). Please be gracious if your proposal is tabled or added to the future roadmap instead of merged.
 
-After you clone your fork, create a new branch with a unique name. Creating branches keeps your work organized and discrete and helps avoid merge conflicts when you sync your fork with the main ROOST project.
-
-Because you eventually want to merge into the `main` branch, use it as the basis for your new branch.
-
-1. First, navigate to the repository root:
-
-   ```shell
-   cd creator-docs
-   ```
-
-1. Then switch to the `main` branch (if you're not already on it):
-
-   ```shell
-   git checkout main
-   ```
-
-1. Finally, create your new branch:
-
-   ```shell
-   git checkout -b your-new-branch
-   ```
-
-#### Opening Pull Requests
-
-When you're happy with your changes, commit them to your branch. Include a short summary and longer description:
-
-```shell
-git commit -m "summary" -m "description"
-```
-
-```shell
-git push origin your-branch
-```
-
-Then open ROOST's main repo on GitHub and click **New Pull Request**. Choose **main** as the _base_ branch and your branch as the _compare_ branch.
-
-Add a title and description of your changes, confirm that the contribution is your own, original work that you have the right to submit, and create the pull request.
+Thank You!
