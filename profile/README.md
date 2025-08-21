@@ -2,7 +2,7 @@
 
 ![a minimalist logo of a bird sitting on a box, a play on modularity and tools coming home to roost](https://roost.tools/images/logos/roost.svg "ROOST.tools")
 
-[ROOST](https://roost.tools) ROOST is a new non-profit organization that provides modular, open-source infrastructure for online safety. We serve product teams, trust & safety leads, and community moderators who need to review, triage, and enforce on harmful content  without building everything from scratch or relying on opaque or expensive vendor tools. ROOST is building tools with a focus on modular, self-hostable, and interoperable components. 
+[ROOST](https://roost.tools) is a new non-profit organization that provides modular, open-source infrastructure for online safety. We serve product teams, trust & safety leads, and community moderators who need to review, triage, and enforce on harmful content  without building everything from scratch or relying on opaque or expensive vendor tools. ROOST is building tools with a focus on modular, self-hostable, and interoperable components. 
 
 
 ## Our Team
