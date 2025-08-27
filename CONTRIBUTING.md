@@ -5,7 +5,11 @@ Thank you for being interested in contributing to ROOST! Together we’re making
 ### Bugs and docs fixes
 For small, easily reproducible bugs or small documentation changes, you can directly open a PR. Please identify it as a bug or fix in the subject line, and write a succinct commit message.
 
-For medium-sized to big bugs or for feature enhancements, please start with an Issue. _(We don’t yet have an issue template; perhaps you could contribute one?!)_
+For medium-sized to big bugs or for feature enhancements, please start with an Issue. When opening an issue, please use our templates:
+
+* [Bug Report](https://github.com/roostorg/osprey/issues/new?template=bug_report.md)
+* [Feature Request](https://github.com/roostorg/osprey/issues/new?template=feature_request.md)
+* [Submit an Egg (new tool idea) to ROOST!](https://github.com/roostorg/osprey/issues/new?template=documentation.md)
 
 If auto-generated Issues don’t provide meaningful suggestions and a way of following up with a human author, we will consider these spam and close them. 
 
