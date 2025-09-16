@@ -22,7 +22,7 @@ General ideas
 Have a thought but not sure it’s “Issue ready”? Throw it in a GitHub Discussion or our Discord channel! 
 
 ## Code Review Process
-We follow the principle of two party review, which means that an author cannot “self approve” their submission. While we’re defining our maintainership ladder, a ROOST staff member must merge code in. You can help by “+” or “thumbs up” other PRs that you’d like to see merged.  
+We follow the principle of two party review, which means that an author cannot “self approve” their submission. While we’re defining our maintainership ladder, a code owner must merge code in. You can help by “+” or “thumbs up” other PRs that you’d like to see merged.  
 
 ROOST is focused on building high-quality, functional infrastructure tooling. That means that not every feature or refactor is going to be accepted right now (even if it’s a good idea long term). Please be gracious if your proposal is tabled or added to the future roadmap instead of merged.
 
