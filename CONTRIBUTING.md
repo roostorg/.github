@@ -21,6 +21,9 @@ Even if you don’t have merge permissions on ROOST repos, you can still help by
 General ideas
 Have a thought but not sure it’s “Issue ready”? Throw it in a GitHub Discussion or our Discord channel! 
 
+### AI-assisted coding policy
+Contributors are responsible for submitting original work to ROOST projects. This does not preclude the use of developer tools and aids, including AI coding assistants, but the final product must be the contributor's original work. Regardless of development aids, contributors should always submit work that they can explain and that follow good practices for de-buggable and maintainable code.
+
 ## Code Review Process
 We follow the principle of two party review, which means that an author cannot “self approve” their submission. While we’re defining our maintainership ladder, a code owner must merge code in. You can help by “+” or “thumbs up” other PRs that you’d like to see merged.  
 
