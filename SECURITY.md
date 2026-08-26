@@ -2,7 +2,9 @@
 
 ROOST projects follow a 90 day disclosure timeline unless stated otherwise.
 
-## Via GitHub
+## Report a security issue
+
+### Via GitHub
 
 To report a security issue via GitHub:
 
@@ -14,7 +16,7 @@ To report a security issue via GitHub:
 
 Your report will only be visible to the maintainers of the project and invited collaborators until it is published as an advisory. You will be automatically credited as a contributor. For more information, see the [GitHub documentation](https://docs.github.com/en/code-security/how-tos/report-and-fix-vulnerabilities/privately-reporting-a-security-vulnerability). If this option does not appear or you do not have a GitHub account, please report the issue via email (see below).
 
-## Via email
+### Via email
 
 To report a security issue via email, please email security@roost.tools with:
 
@@ -25,6 +27,10 @@ To report a security issue via email, please email security@roost.tools with:
 
 Our team will acknowledge receiving your email within 3 working days.
 
+## Security updates
+
+Security releases for ROOST projects may land outside of the regular project release cadence. For security announcements, we encourage adopters to subscribe to the [security-announce@roost.tools mailing list](https://groups.google.com/a/roost.tools/g/security-announce). For more information, see the [ROOST security response process](https://roostorg.github.io/community/software-development-practices/security). 
+
 ## Partner models
 
-For any vulnerabilities in [ROOST Model Community partner models](https://github.com/roostorg/open-models?tab=readme-ov-file#rmc-partners), please report **directly to the model creator**, not to ROOST.
+For any vulnerabilities in [ROOST Model Community partner models](https://github.com/roostorg/open-models?tab=readme-ov-file#rmc-partners), please report **directly to the model creator**, not to ROOST. Similarly, check with the model creator for information about security releases or advisories.
